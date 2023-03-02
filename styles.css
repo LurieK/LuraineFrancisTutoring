@@ -1,19 +1,22 @@
 
 /* General to-do:
-fix pictures to be nicer
+make body divs take up the whole page
 make each section work for mobile 
-fix h5 size to be bigger*/
+*/
 
 html {
     font-size: 16px;
+   
 }
 
 body {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
     flex-direction: column;
     width: 100%;
+    margin:  0 auto;
 }
 
 
@@ -168,7 +171,7 @@ a {
     box-shadow: 0 0 5px gray;
 }
 
-/* Create mission section */
+
 
 .mission {
     display: flex;
@@ -205,13 +208,6 @@ a {
 
 }
 
-@media only screen and (max-width: 1148px) {
-    .classes {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
-    }
-}
 
 .english-img{
     background-image: url(./img/English.jpg);
@@ -316,7 +312,7 @@ a {
     width: 40%;
 }
 
-/* Center and design contact section */
+
 .contact{
     display:flex;
     align-items: center;
@@ -349,5 +345,15 @@ a {
     font-size: 1.5rem;
 }
 
+
+@media only screen and (max-width: 1148px) {
+    .classes {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    
+}
 
 
