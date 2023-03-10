@@ -9,14 +9,16 @@ html {
    
 }
 
+
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     align-content: center;
-    flex-direction: column;
     width: 100%;
     margin:  0 auto;
+    min-height: 100vh;
 }
 
 
@@ -65,12 +67,12 @@ li{
     }
 }
 
-/* @media only screen and (min-width: 420px){
+@media only screen and (min-width: 420px){
     .title {
         width: 110%;
         height: 600px;
     }
-} */
+}
 
 
 h1{
@@ -351,9 +353,23 @@ a {
         display: flex;
         flex-direction: column;
         width: 50%;
+        align-items: center;
+        align-content: center;
+    }
+    .coding {
+        margin-right: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 1148px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        align-content: center;
     }
 
     
 }
-
-
