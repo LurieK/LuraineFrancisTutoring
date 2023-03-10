@@ -61,13 +61,13 @@ li{
     
 }
 
-@media only screen and (max-width: 645px){
+@media only screen and (max-width: 1148px){
     ul {
         display: none;
     }
 }
 
-@media only screen and (min-width: 420px){
+@media only screen and (max-width: 1148px){
     .title {
         width: 110%;
         height: 600px;
