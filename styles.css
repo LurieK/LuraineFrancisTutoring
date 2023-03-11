@@ -1,7 +1,7 @@
 
 /* General to-do:
-make body divs take up the whole page
-make each section work for mobile 
+
+
 */
 
 html {
@@ -359,6 +359,10 @@ a {
     .coding {
         margin-right: 20px;
     }
+
+    .contact a {
+        width: 22%;
+    }
     
 }
 
@@ -370,6 +374,7 @@ a {
         align-items: center;
         align-content: center;
     }
+
 
     
 }
