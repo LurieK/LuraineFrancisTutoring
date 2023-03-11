@@ -173,7 +173,20 @@ a {
     box-shadow: 0 0 5px gray;
 }
 
+@media only screen and (max-width: 1148px) and (min-width: 450px){
 
+    .phil-text {
+        width:50%;
+        margin-left: 10px;
+        
+    }
+
+    .philosophy img {
+        width: 50%;
+    }
+
+
+}
 
 .mission {
     display: flex;
@@ -195,6 +208,21 @@ a {
     width: 25%;
     margin-right: 20px;
     box-shadow: 0 0 5px gray;
+}
+
+@media only screen and (max-width: 1148px) and (min-width: 450px){
+
+    .mission-txt {
+        width:50%;
+        margin-left: 10px;
+        
+    }
+
+    .mission img {
+        width: 50%;
+    }
+
+
 }
 
 /* Add JS to classes so the sections flip when the mouse is over it */
@@ -314,7 +342,18 @@ a {
     width: 40%;
 }
 
+@media only screen and (max-width: 1148px) and (min-width: 450px){
+    .meet-Lurie {
+        display: flex;
+        flex-direction: column;
 
+    }
+
+    .about {
+        width:75%;
+       
+    }
+}
 .contact{
     display:flex;
     align-items: center;
@@ -348,7 +387,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1148px) {
+@media only screen and (max-width: 1148px) and (min-width: 450px) {
     .classes {
         display: flex;
         flex-direction: column;
@@ -361,7 +400,11 @@ a {
     }
 
     .contact a {
-        width: 22%;
+        width: 30%;
+    }
+
+    .contact h3 {
+        text-align: center;
     }
     
 }
