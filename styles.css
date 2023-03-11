@@ -115,7 +115,7 @@ h5 {
     height: 500px;
     margin: 0;
     color: white;
-    
+    padding: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,7 +161,7 @@ a {
     align-items: center;
     margin-top: 20px;
     width: 100%;
-
+    padding: 3rem;
 }
 
 .phil-text{
@@ -198,7 +198,7 @@ a {
     flex-direction: row-reverse;
     width: 100%;
     background-color: whitesmoke;
-
+    padding: 3rem;
 }
 
 .mission-txt{
@@ -322,9 +322,8 @@ a {
     justify-content: center;
     align-items: center;
     background-color: whitesmoke;
+    padding: 3rem;
     
- 
-
 }
 .lurie-img{
     background-image: url(./img/lurie_headshots_2018-0003_Original.jpg);
