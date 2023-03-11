@@ -1,7 +1,8 @@
 
 /* General to-do:
-
-
+why does .title media  query not work?
+why when I adjust the browser the .philosophy and .mission don't work?
+why on github iis it bold?
 */
 
 html {
@@ -15,10 +16,10 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    align-content: center;
+    
     width: 100%;
     margin:  0 auto;
-    min-height: 100vh;
+    
 }
 
 
