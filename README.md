@@ -41,4 +41,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Lurie Kimmerle - [GitHub Profile](https://github.com/luriek)
 
-Feel free to further customize the README file based on your specific needs and add any additional information or details that you'd like to include.
+
